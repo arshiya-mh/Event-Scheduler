@@ -1,7 +1,7 @@
 # Event Scheduler 🗓️🚀
 
 A sleek and futuristic web app for managing events online. Built with HTML, CSS, and JavaScript, it offers an intuitive and efficient experience for scheduling and organizing events with a luxurious neon tech-inspired design.  
-[Live Demo](#)
+[Live Demo](https://arshiya-mh.github.io/Event-Scheduler/)
 
 ## 📌 Features
 ✅ User-friendly event scheduling and management 🗓️✨  
