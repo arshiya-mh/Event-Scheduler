@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'bt';
+    src: url(assets/B\ Titr\ Bold_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'bn';
+    src: url(assets/B-NAZANIN.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'll';
+    src: url(assets/Lalezar-Regular.ttf) format('truetype');
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logop{
+    width: 60px;
+    height: 60px;
+}
+.logop img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signbt a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3d6cb9;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'll';
+}
+.signbt a:hover{
+    background-color: #00d1ff;
+}
+.container {
+    width: 50%;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+    color: #333;
+    font-family: 'bt';
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'bn';
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    direction: rtl;
+    border: 1px solid #ddd;
+    font-family: 'bn';
+}
+
+button {
+    background: #3d6cb9;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'll';
+}
+
+button:hover {
+    background:#00d1ff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'bn';
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.delete, button.edit {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button.delete {
+    background: #dc3545;
+    color: white;
+}
+
+button.edit {
+    background: #ffc107;
+    color: black;
+}

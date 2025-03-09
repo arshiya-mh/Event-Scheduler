@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <script src="https://kit.fontawesome.com/837494d1db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="assets/logo.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logop">
+            <img src="assets/logo.jpg" alt="">
+        </div>
+        <div class="signbt">
+            <a href="">ورود | ثبت نام <i class="fa-solid fa-arrow-up-from-bracket"></i> </a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>برنامه‌ریزی رویدادها</h1>
+        <form id="event-form">
+            <input type="text" id="title" placeholder="عنوان رویداد" required>
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+            <button type="submit" class="subbt"> افزودن رویداد</button>
+        </form>
+        <ul id="event-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
